@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación - Nuestra Boda Gero y Mumi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Italianno&family=Monsieur+La+Doulaise&family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@485&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta property="og:title" content="¡Nos Casamos! Gero & Mumi">
+    <meta property="og:description" content="Te invitamos a compartir nuestra felicidad. Entra para ver todos los detalles de nuestra boda.">
+    <meta property="og:image" content="https://geroymumi.netlify.app/imagenes/GeroyMumi.png">
+    <meta property="og:url" content="https://geroymumi.netlify.app">
+    <meta property="og:type" content="website">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-top">
+            <div class="enmarcado">
+                <h1>¡Nos casamos!
+                </h1>
+            </div>
+            
+        </div>
+        
+        <div class="spacer"></div>
+    
+        <div class="hero-bottom">
+            <div class="enmarcado">
+                <h1 class="nombres">Gero y Mumi</h1>
+            </div>
+           
+        </div>
+      
+        <audio id="miAudio" loop>
+            <source src="musica/Reik - Creo en Ti.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+    <button id="music-control" class="music-btn">
+        <span id="music-icon">PAUSE</span>
+    </button>
+    
+    <section id="countdown-section">
+        <div class="countdown-container">
+            <div class="time-box">
+                <span id="days" class="number">00</span>
+                <span class="label">DÍAS</span>
+            </div>
+            <span class="separator">:</span>
+            <div class="time-box">
+                <span id="hours" class="number">00</span>
+                <span class="label">HORAS</span>
+            </div>
+            <span class="separator">:</span>
+            <div class="time-box">
+                <span id="minutes" class="number">00</span>
+                <span class="label">MINUTOS</span>
+            </div>
+            <span class="separator">:</span>
+            <div class="time-box">
+                <span id="seconds" class="number">00</span>
+                <span class="label">SEGUNDOS</span>
+            </div>
+        </div>
+    </section>
+
+   <!-- cuando -->
+   <section id="cuando">
+    <div class="icono-calendario">
+        <img src="icons/calendario.png" alt="">
+    </div>
+    <h2 class="titulo-cuando">¿Cuando?</h2>
+    <p class="fecha">15 de Enero, 2026</p>
+    <p class="hora">18:00 hs</p>
+</section>
+  <!-- Donde -->
+<section id="Donde">
+    
+    <div class="icono-ubicacion">
+        <img src="icons/ubicacion.png" alt="">
+    </div>
+    <h2 class="titulo-Donde">¿Donde?</h2>
+    <p class="Direccion"> Espacio Amenábar </p>
+    <p class="ciudad">Amenábar 527. Autónoma de Buenos Airesn</p>
+    <button id="btn-mapa" class="boton-ubicacion">VER UBICACIÓN</button>
+    
+    <div id="map-container" class="mapa-oculto">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1161.4999363453762!2d-58.44469980368403!3d-34.573351991049016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5c19de55dbd%3A0x972c5c3620543e3e!2sEspacio%20Amen%C3%A1bar!5e0!3m2!1ses-419!2sar!4v1768159252899!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
+</section>
+   
+<section id="frase">
+    <div class="frase-enmarcada">
+        <p>"¡Preparen los zapatos! Se viene la fiesta del año."</p>
+    </div>
+</section>
+
+
+     <!-- DressCode -->
+     
+     <section id="dresscode">
+        <div class="icono-dresscode">
+            <img src="icons/codigo-de-vestimenta.png" alt="">
+        </div>
+        <h2 class="titulo-dresscode">Dress Code</h2>
+        <p class="texto-dresscode">Elegante Sport</p>
+    </section>
+
+    <section id="frase">
+        <div class="frase-enmarcada">
+            <p>"Dicen que los locos se juntan, y acá estamos nosotros."</p>
+        </div>
+    </section>
+        <!-- Galería -->
+    <section class="galeria">
+
+            
+    <div class="slider-frame">
+        <ul>
+            <li><img src="imagenes/pareja2.jpg" alt=""></li>
+            <li><img src="imagenes/pareja3.jpg" alt=""></li>
+            <li><img src="imagenes/pareja4.jpg" alt=""></li>
+            <li><img src="imagenes/pareja5.jpg" alt=""></li>
+        </ul>
+    </div>
+
+    </section>
+   <!-- fotosinvitados -->
+<section id="fotosinvitados">
+    <div class="icono-fotosinvitados">
+        <img src="icons/wired-outline-61-camera-hover-flash.webp" alt="">
+    </div>
+    <h2 class="titulo-fotosinvitados">¡Quiero ver tus fotos!</h2>
+    <p class="texto-fotosinvitados">Pueden subir todas las fotos del gran dia al albun compartido!</p>
+    
+    <button class="boton-fotosinvitados" onclick="mostrarCartel()">
+       Subi tus fotos
+    </button>
+    <!-- Cartel oculto fotos -->
+    <div id="cartel-fotosinvitados" class="cartel-overlay" style="display: none;">
+        <div class="cartel-contenido">
+            <span class="cerrar" onclick="cerrarCartel()">&times;</span>
+            <h3>¡Subi tus fotos!</h3>
+            <a href="" class="link-fotosinvitados">Drive de fotos</a><br>
+
+           
+            <button onclick="cerrarCartel()" class="boton-cerrar">Cerrar</button>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Frases -->
+    <section id="frase">
+        <div class="frase-enmarcada">
+            <p>"Hay momentos que merecen ser compartidos para siempre."</p>
+        </div>
+    </section>
+
+ <!-- Regalo -->
+     <section id="regalo">
+        <div class="icono-regalo">
+            <img src="icons/luna-de-miel-64.png" alt="">
+        </div>
+        <h2 class="titulo-regalo">LUNA DE MIEL</h2>
+        <p class="texto-regalo">"Nuestro mejor regalo es tu presencia en este día tan especial. Pero, si deseas hacernos un obsequio, puedes contribuir a nuestra luna de miel."</p>
+      
+        <button class="boton-regalo" onclick="mostrarCartel1()">
+            Contribuir
+        </button>
+        
+  <!-- Cartel oculto Regalo -->
+        <div id="cartel-regalo" class="cartel-overlay" style="display: none;">
+            <div class="cartel-contenido">
+                <span class="cerrar" onclick="cerrarCartel1()">&times;</span>
+                <h3>¡Gracias por tu cariño!</h3>
+                <p>Puedes hacer tu regalo por transferencia:</p>
+                <p><strong>CBU:</strong> XXXXXXXXXXXXXXX</p>
+                <p><strong>Alias:</strong>Gero.Mumi</p>
+                <button onclick="cerrarCartel1()" class="boton-cerrar">Cerrar</button>
+            </div>
+        </div>
+        
+    </section>
+    <section id="frase">
+        <div class="frase-enmarcada">
+            <p>"Sí, acepto. Para siempre."</p>
+        </div>
+    </section>
+    <section id="fotofin">
+        <div class="finfoto">
+            <img src="imagenes/pareja.jpg" alt="">
+        </div>
+    </section>
+    <!-- Footer -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <footer>
+        <div class="footer-content">
+            <p class="footer-frase">"Lo mejor de nuestras vidas es compartirlo con ustedes"</p>
+            <div class="footer-linea"></div>
+            <h2 class="footer-nombres">Gero & Mumi</h2>
+            <p class="footer-fecha">12 . 12 . 2026</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
